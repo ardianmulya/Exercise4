@@ -44,6 +44,10 @@ namespace Exercise4
                 return;
             }
         }
+        public void display()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
