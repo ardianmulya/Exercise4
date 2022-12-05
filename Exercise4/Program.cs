@@ -32,7 +32,17 @@ namespace Exercise4
         }
         public void Pop()
         {
-
+            if (top == -1)
+            {
+                Console.WriteLine("Stack is Empty");
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Poped Element is : " + aan[top]);
+                top--;
+                return;
+            }
         }
         static void Main(string[] args)
         {
