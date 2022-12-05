@@ -46,7 +46,18 @@ namespace Exercise4
         }
         public void display()
         {
-
+            if (top == -1)
+            {
+                Console.WriteLine("Stack is Empty");
+                return;
+            }
+            else
+            {
+                for (int i = 0; i < aan.Length; i++)
+                {
+                    Console.WriteLine(aan[i]);
+                }
+            }
         }
         static void Main(string[] args)
         {
