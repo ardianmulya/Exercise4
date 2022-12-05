@@ -62,7 +62,19 @@ namespace Exercise4
         static void Main(string[] args)
         {
             Stack s = new Stack(35);
-
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n ***Stack Menu***\n");
+                Console.WriteLine("1. Push");
+                Console.WriteLine("2. Pop");
+                Console.WriteLine("3. Display");
+                Console.WriteLine("4. Exit");
+                Console.Write("\n Enter your choice : ");
+                string input = Console.ReadLine();
+                char ch = Convert.ToChar(input == "" ? "o" : input);
+               
+            }
         }
     }
 }
