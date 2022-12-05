@@ -30,6 +30,10 @@ namespace Exercise4
                 aan[++top] = Console.ReadLine();
             }
         }
+        public void Pop()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
