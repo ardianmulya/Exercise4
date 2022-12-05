@@ -80,7 +80,12 @@ namespace Exercise4
                         s.Push();
                         break;
 
+                    case '2':
+                        s.Pop();
+                        break;
 
+
+                }
             }
         }
     }
