@@ -73,7 +73,11 @@ namespace Exercise4
                 Console.Write("\n Enter your choice : ");
                 string input = Console.ReadLine();
                 char ch = Convert.ToChar(input == "" ? "o" : input);
-               
+
+                switch (ch)
+                {
+                    
+                }
             }
         }
     }
