@@ -61,6 +61,8 @@ namespace Exercise4
         }
         static void Main(string[] args)
         {
+            Stack s = new Stack(35);
+
         }
     }
 }
