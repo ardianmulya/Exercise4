@@ -8,7 +8,10 @@ namespace Exercise4
 {
     class Stack
     {
-
+        private string[] aan;
+        private int top;
+        private int max;
+        
         static void Main(string[] args)
         {
         }
