@@ -17,6 +17,19 @@ namespace Exercise4
             top = -1;
             max = size;
         }
+        public void Push()
+        {
+            if (top == max - 1)
+            {
+                Console.WriteLine("Stack is Empty");
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Masukan Element: ");
+                aan[++top] = Console.ReadLine();
+            }
+        }
         static void Main(string[] args)
         {
         }
