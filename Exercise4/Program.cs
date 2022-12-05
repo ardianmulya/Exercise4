@@ -76,8 +76,11 @@ namespace Exercise4
 
                 switch (ch)
                 {
-                    
-                }
+                    case '1':
+                        s.Push();
+                        break;
+
+
             }
         }
     }
